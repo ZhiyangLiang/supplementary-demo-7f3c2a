@@ -29,7 +29,7 @@ retain progressive MP4 playback. Browsers without MediaSource support display
 an explicit notice and retain native playback.
 Fonts are embedded in the local stylesheets. In a sandbox, navigation state
 uses the URL fragment while existing category and case query links still work.
-Opening the bare project URL defaults to the Scene / World Editing gallery
+Opening the bare project URL shows the overview with every section collapsed,
 without adding a query or fragment. Explicit category, case and saved-view
 links retain their requested state.
 Gaming contains eight selected cases, numbered consecutively.
