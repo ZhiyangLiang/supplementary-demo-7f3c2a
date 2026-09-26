@@ -1,0 +1,414 @@
+{
+  "duration": 134.1,
+  "tracks": [
+    {
+      "type": "video",
+      "mime": "video/mp4; codecs=\"avc1.640028\"",
+      "init": "static/demo/seekable/init-0.m4s",
+      "segments": [
+        {
+          "url": "static/demo/seekable/chunk-0-00001.m4s",
+          "start": 0.0,
+          "end": 3.0
+        },
+        {
+          "url": "static/demo/seekable/chunk-0-00002.m4s",
+          "start": 3.0,
+          "end": 6.0
+        },
+        {
+          "url": "static/demo/seekable/chunk-0-00003.m4s",
+          "start": 6.0,
+          "end": 9.0
+        },
+        {
+          "url": "static/demo/seekable/chunk-0-00004.m4s",
+          "start": 9.0,
+          "end": 12.0
+        },
+        {
+          "url": "static/demo/seekable/chunk-0-00005.m4s",
+          "start": 12.0,
+          "end": 15.0
+        },
+        {
+          "url": "static/demo/seekable/chunk-0-00006.m4s",
+          "start": 15.0,
+          "end": 18.0
+        },
+        {
+          "url": "static/demo/seekable/chunk-0-00007.m4s",
+          "start": 18.0,
+          "end": 21.433333333333334
+        },
+        {
+          "url": "static/demo/seekable/chunk-0-00008.m4s",
+          "start": 21.433333333333334,
+          "end": 24.433333333333334
+        },
+        {
+          "url": "static/demo/seekable/chunk-0-00009.m4s",
+          "start": 24.433333333333334,
+          "end": 29.1
+        },
+        {
+          "url": "static/demo/seekable/chunk-0-00010.m4s",
+          "start": 29.1,
+          "end": 33.166666666666664
+        },
+        {
+          "url": "static/demo/seekable/chunk-0-00011.m4s",
+          "start": 33.166666666666664,
+          "end": 36.8
+        },
+        {
+          "url": "static/demo/seekable/chunk-0-00012.m4s",
+          "start": 36.8,
+          "end": 40.8
+        },
+        {
+          "url": "static/demo/seekable/chunk-0-00013.m4s",
+          "start": 40.8,
+          "end": 45.13333333333333
+        },
+        {
+          "url": "static/demo/seekable/chunk-0-00014.m4s",
+          "start": 45.13333333333333,
+          "end": 49.166666666666664
+        },
+        {
+          "url": "static/demo/seekable/chunk-0-00015.m4s",
+          "start": 49.166666666666664,
+          "end": 52.166666666666664
+        },
+        {
+          "url": "static/demo/seekable/chunk-0-00016.m4s",
+          "start": 52.166666666666664,
+          "end": 57.5
+        },
+        {
+          "url": "static/demo/seekable/chunk-0-00017.m4s",
+          "start": 57.5,
+          "end": 62.36666666666667
+        },
+        {
+          "url": "static/demo/seekable/chunk-0-00018.m4s",
+          "start": 62.36666666666667,
+          "end": 66.36666666666666
+        },
+        {
+          "url": "static/demo/seekable/chunk-0-00019.m4s",
+          "start": 66.36666666666666,
+          "end": 71.7
+        },
+        {
+          "url": "static/demo/seekable/chunk-0-00020.m4s",
+          "start": 71.7,
+          "end": 74.83333333333333
+        },
+        {
+          "url": "static/demo/seekable/chunk-0-00021.m4s",
+          "start": 74.83333333333333,
+          "end": 77.83333333333333
+        },
+        {
+          "url": "static/demo/seekable/chunk-0-00022.m4s",
+          "start": 77.83333333333333,
+          "end": 83.56666666666666
+        },
+        {
+          "url": "static/demo/seekable/chunk-0-00023.m4s",
+          "start": 83.56666666666666,
+          "end": 89.33333333333333
+        },
+        {
+          "url": "static/demo/seekable/chunk-0-00024.m4s",
+          "start": 89.33333333333333,
+          "end": 95.06666666666666
+        },
+        {
+          "url": "static/demo/seekable/chunk-0-00025.m4s",
+          "start": 95.06666666666666,
+          "end": 100.8
+        },
+        {
+          "url": "static/demo/seekable/chunk-0-00026.m4s",
+          "start": 100.8,
+          "end": 106.53333333333333
+        },
+        {
+          "url": "static/demo/seekable/chunk-0-00027.m4s",
+          "start": 106.53333333333333,
+          "end": 112.26666666666667
+        },
+        {
+          "url": "static/demo/seekable/chunk-0-00028.m4s",
+          "start": 112.26666666666667,
+          "end": 115.53333333333333
+        },
+        {
+          "url": "static/demo/seekable/chunk-0-00029.m4s",
+          "start": 115.53333333333333,
+          "end": 120.1
+        },
+        {
+          "url": "static/demo/seekable/chunk-0-00030.m4s",
+          "start": 120.1,
+          "end": 123.1
+        },
+        {
+          "url": "static/demo/seekable/chunk-0-00031.m4s",
+          "start": 123.1,
+          "end": 126.1
+        },
+        {
+          "url": "static/demo/seekable/chunk-0-00032.m4s",
+          "start": 126.1,
+          "end": 129.1
+        },
+        {
+          "url": "static/demo/seekable/chunk-0-00033.m4s",
+          "start": 129.1,
+          "end": 133.66666666666666
+        },
+        {
+          "url": "static/demo/seekable/chunk-0-00034.m4s",
+          "start": 133.66666666666666,
+          "end": 134.1
+        }
+      ]
+    },
+    {
+      "type": "audio",
+      "mime": "audio/mp4; codecs=\"mp4a.40.2\"",
+      "init": "static/demo/seekable/init-1.m4s",
+      "segments": [
+        {
+          "url": "static/demo/seekable/chunk-1-00001.m4s",
+          "start": 0.0,
+          "end": 2.944
+        },
+        {
+          "url": "static/demo/seekable/chunk-1-00002.m4s",
+          "start": 2.944,
+          "end": 5.952
+        },
+        {
+          "url": "static/demo/seekable/chunk-1-00003.m4s",
+          "start": 5.952,
+          "end": 8.938666666666666
+        },
+        {
+          "url": "static/demo/seekable/chunk-1-00004.m4s",
+          "start": 8.938666666666666,
+          "end": 11.946666666666667
+        },
+        {
+          "url": "static/demo/seekable/chunk-1-00005.m4s",
+          "start": 11.946666666666667,
+          "end": 14.933333333333334
+        },
+        {
+          "url": "static/demo/seekable/chunk-1-00006.m4s",
+          "start": 14.933333333333334,
+          "end": 17.941333333333333
+        },
+        {
+          "url": "static/demo/seekable/chunk-1-00007.m4s",
+          "start": 17.941333333333333,
+          "end": 20.949333333333332
+        },
+        {
+          "url": "static/demo/seekable/chunk-1-00008.m4s",
+          "start": 20.949333333333332,
+          "end": 23.957333333333334
+        },
+        {
+          "url": "static/demo/seekable/chunk-1-00009.m4s",
+          "start": 23.957333333333334,
+          "end": 26.965333333333334
+        },
+        {
+          "url": "static/demo/seekable/chunk-1-00010.m4s",
+          "start": 26.965333333333334,
+          "end": 29.973333333333333
+        },
+        {
+          "url": "static/demo/seekable/chunk-1-00011.m4s",
+          "start": 29.973333333333333,
+          "end": 32.98133333333333
+        },
+        {
+          "url": "static/demo/seekable/chunk-1-00012.m4s",
+          "start": 32.98133333333333,
+          "end": 35.989333333333335
+        },
+        {
+          "url": "static/demo/seekable/chunk-1-00013.m4s",
+          "start": 35.989333333333335,
+          "end": 38.99733333333333
+        },
+        {
+          "url": "static/demo/seekable/chunk-1-00014.m4s",
+          "start": 38.99733333333333,
+          "end": 42.00533333333333
+        },
+        {
+          "url": "static/demo/seekable/chunk-1-00015.m4s",
+          "start": 42.00533333333333,
+          "end": 45.013333333333335
+        },
+        {
+          "url": "static/demo/seekable/chunk-1-00016.m4s",
+          "start": 45.013333333333335,
+          "end": 48.02133333333333
+        },
+        {
+          "url": "static/demo/seekable/chunk-1-00017.m4s",
+          "start": 48.02133333333333,
+          "end": 51.029333333333334
+        },
+        {
+          "url": "static/demo/seekable/chunk-1-00018.m4s",
+          "start": 51.029333333333334,
+          "end": 54.037333333333336
+        },
+        {
+          "url": "static/demo/seekable/chunk-1-00019.m4s",
+          "start": 54.037333333333336,
+          "end": 57.04533333333333
+        },
+        {
+          "url": "static/demo/seekable/chunk-1-00020.m4s",
+          "start": 57.04533333333333,
+          "end": 60.053333333333335
+        },
+        {
+          "url": "static/demo/seekable/chunk-1-00021.m4s",
+          "start": 60.053333333333335,
+          "end": 63.06133333333333
+        },
+        {
+          "url": "static/demo/seekable/chunk-1-00022.m4s",
+          "start": 63.06133333333333,
+          "end": 66.06933333333333
+        },
+        {
+          "url": "static/demo/seekable/chunk-1-00023.m4s",
+          "start": 66.06933333333333,
+          "end": 69.07733333333333
+        },
+        {
+          "url": "static/demo/seekable/chunk-1-00024.m4s",
+          "start": 69.07733333333333,
+          "end": 72.08533333333334
+        },
+        {
+          "url": "static/demo/seekable/chunk-1-00025.m4s",
+          "start": 72.08533333333334,
+          "end": 75.09333333333333
+        },
+        {
+          "url": "static/demo/seekable/chunk-1-00026.m4s",
+          "start": 75.09333333333333,
+          "end": 78.10133333333333
+        },
+        {
+          "url": "static/demo/seekable/chunk-1-00027.m4s",
+          "start": 78.10133333333333,
+          "end": 81.10933333333334
+        },
+        {
+          "url": "static/demo/seekable/chunk-1-00028.m4s",
+          "start": 81.10933333333334,
+          "end": 84.11733333333333
+        },
+        {
+          "url": "static/demo/seekable/chunk-1-00029.m4s",
+          "start": 84.11733333333333,
+          "end": 87.12533333333333
+        },
+        {
+          "url": "static/demo/seekable/chunk-1-00030.m4s",
+          "start": 87.12533333333333,
+          "end": 90.13333333333334
+        },
+        {
+          "url": "static/demo/seekable/chunk-1-00031.m4s",
+          "start": 90.13333333333334,
+          "end": 93.14133333333334
+        },
+        {
+          "url": "static/demo/seekable/chunk-1-00032.m4s",
+          "start": 93.14133333333334,
+          "end": 96.14933333333333
+        },
+        {
+          "url": "static/demo/seekable/chunk-1-00033.m4s",
+          "start": 96.14933333333333,
+          "end": 99.15733333333333
+        },
+        {
+          "url": "static/demo/seekable/chunk-1-00034.m4s",
+          "start": 99.15733333333333,
+          "end": 102.16533333333334
+        },
+        {
+          "url": "static/demo/seekable/chunk-1-00035.m4s",
+          "start": 102.16533333333334,
+          "end": 105.17333333333333
+        },
+        {
+          "url": "static/demo/seekable/chunk-1-00036.m4s",
+          "start": 105.17333333333333,
+          "end": 108.18133333333333
+        },
+        {
+          "url": "static/demo/seekable/chunk-1-00037.m4s",
+          "start": 108.18133333333333,
+          "end": 111.18933333333334
+        },
+        {
+          "url": "static/demo/seekable/chunk-1-00038.m4s",
+          "start": 111.18933333333334,
+          "end": 114.19733333333333
+        },
+        {
+          "url": "static/demo/seekable/chunk-1-00039.m4s",
+          "start": 114.19733333333333,
+          "end": 117.20533333333333
+        },
+        {
+          "url": "static/demo/seekable/chunk-1-00040.m4s",
+          "start": 117.20533333333333,
+          "end": 120.21333333333334
+        },
+        {
+          "url": "static/demo/seekable/chunk-1-00041.m4s",
+          "start": 120.21333333333334,
+          "end": 123.22133333333333
+        },
+        {
+          "url": "static/demo/seekable/chunk-1-00042.m4s",
+          "start": 123.22133333333333,
+          "end": 126.22933333333333
+        },
+        {
+          "url": "static/demo/seekable/chunk-1-00043.m4s",
+          "start": 126.22933333333333,
+          "end": 129.23733333333334
+        },
+        {
+          "url": "static/demo/seekable/chunk-1-00044.m4s",
+          "start": 129.23733333333334,
+          "end": 132.24533333333332
+        },
+        {
+          "url": "static/demo/seekable/chunk-1-00045.m4s",
+          "start": 132.24533333333332,
+          "end": 134.016
+        }
+      ]
+    }
+  ]
+}

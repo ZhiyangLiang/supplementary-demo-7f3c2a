@@ -22,9 +22,14 @@ scene inspection and edit transitions without accessing browser iframes.
 The hosting sandbox remains intact.
 
 Case videos are stored once in lossless resource packages and decoded to
-origin-clean media blobs on demand. The main demo remains a progressive MP4.
+origin-clean media blobs on demand. On anonymous hosting, the main demo uses
+losslessly remuxed video/audio segments so its native progress bar can seek
+without HTTP Range support or downloading the complete movie. Other hosts
+retain progressive MP4 playback. Browsers without MediaSource support display
+an explicit notice and retain native playback.
 Fonts are embedded in the local stylesheets. In a sandbox, navigation state
 uses the URL fragment while existing category and case query links still work.
 Opening the bare project URL defaults to the Scene / World Editing gallery
 without adding a query or fragment. Explicit category, case and saved-view
 links retain their requested state.
+Gaming contains eight selected cases, numbered consecutively.

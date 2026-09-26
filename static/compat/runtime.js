@@ -3,6 +3,7 @@
   const nativeWindow = window;
   const nativeDocument = document;
   const base = new URL('../../', nativeDocument.currentScript.src);
+  const release = new URL(nativeDocument.currentScript.src).searchParams.get('v');
   const assets = new Map();
   const programs = new Map();
   const requests = new Map();
@@ -323,7 +324,7 @@
     setRegistry(value) { registry = value; },
     async start(key) {
       try {
-        await loadScript('static/compat/registry.js');
+        await loadScript('static/compat/registry.js' + (release ? '?v=' + encodeURIComponent(release) : ''));
         await loadScript(registry.programs[key]);
         const scope = scopeFor(null, nativeWindow.location.href, null, true);
         await scope.run(programs.get(key));
