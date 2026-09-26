@@ -113,9 +113,16 @@
     if (root) {
       const restoreURL = () => {
         const actual = new URL(nativeWindow.location.href);
-        locationURL = actual.hash.startsWith('#view=')
+        const restoredView = actual.hash.startsWith('#view=');
+        locationURL = restoredView
           ? new URL(decodeURIComponent(actual.hash.slice(6)) || '.', base)
           : actual;
+        const landing = locationURL.pathname === base.pathname
+          || locationURL.pathname === new URL('index.html', base).pathname;
+        if (landing && !restoredView && !locationURL.hash
+            && !locationURL.searchParams.has('case') && !locationURL.searchParams.has('category')) {
+          locationURL.searchParams.set('category', 'gallery');
+        }
       };
       restoreURL();
       nativeWindow.addEventListener('popstate', restoreURL);

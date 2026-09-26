@@ -25,3 +25,6 @@ Case videos are stored once in lossless resource packages and decoded to
 origin-clean media blobs on demand. The main demo remains a progressive MP4.
 Fonts are embedded in the local stylesheets. In a sandbox, navigation state
 uses the URL fragment while existing category and case query links still work.
+Opening the bare project URL defaults to the Scene / World Editing gallery
+without adding a query or fragment. Explicit category, case and saved-view
+links retain their requested state.
