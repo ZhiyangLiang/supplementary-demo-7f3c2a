@@ -1,0 +1,1 @@
+CVM.start("index.html");

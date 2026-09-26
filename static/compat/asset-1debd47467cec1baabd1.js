@@ -1,0 +1,1 @@
+CVM.registerAsset("static/interactive/physical-induction/runtime/threejs/simulation/events.json","ewogICJlc3RhYmxpc2giOiAwLjI1LAogICJpbnNlcnRpb25fcGVhayI6IDEuMjgyLAogICJzdGF0aW9uYXJ5X3plcm8iOiAzLjA1LAogICJ3aXRoZHJhd2FsX3BlYWsiOiAzLjgyOSwKICAiZW5kIjogNC45NjY2NjY2NjY2NjY2NjcKfQo=","application/json");

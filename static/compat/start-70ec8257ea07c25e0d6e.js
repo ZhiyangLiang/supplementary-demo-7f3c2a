@@ -1,0 +1,1 @@
+CVM.start("gallery.html");

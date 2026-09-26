@@ -1,0 +1,1 @@
+CVM.registerAsset("static/interactive/newtons-cradle/runtime/threejs/case/layouts.json","ewogICJuZXd0b25zLWNyYWRsZSI6IHsKICAgICJjYW1lcmEiOiBbCiAgICAgIDEuOCwKICAgICAgMi4wLAogICAgICA2LjAKICAgIF0sCiAgICAidGFyZ2V0IjogWwogICAgICAwLAogICAgICAxLjI1LAogICAgICAwCiAgICBdLAogICAgImZvdiI6IDM1CiAgfQp9Cg==","application/json");

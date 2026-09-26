@@ -1,0 +1,1 @@
+CVM.registerAsset("static/interactive/649/runtime/vendor/three.module.js","ZXhwb3J0ICogZnJvbSAnLi4vLi4vLi4vdmVuZG9ycy83NmRlYTgxNTFiYzkzNTJhZWYzNTI4YjQyNjJlMjQ5YjI2MDRmNjI1NDM4MjgzMjhkYjk3OGQwNjBkNjFhNDk1L3RocmVlLm1vZHVsZS5qcyc7Cg==","text/javascript");
