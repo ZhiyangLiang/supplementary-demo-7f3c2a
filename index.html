@@ -1,299 +1,202 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+
+<html data-integrated-gallery="" lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="robots" content="noindex,nofollow,noarchive">
-  <meta
-    http-equiv="Content-Security-Policy"
-    content="default-src 'self'; img-src 'self' data:; media-src 'self' blob:; script-src 'self'; style-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'"
-  >
-  <title>Code Video Model - Anonymous Supplementary Material</title>
-  <meta
-    name="description"
-    content="Anonymous supplementary project page for controllable video generation from executable programs."
-  >
-  <link rel="stylesheet" href="static/style.css">
-</head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>Code Video Model — Conditioning Video Generation on Code</title>
+<meta content="Code Video Model — Conditioning Video Generation on Code." name="description"/>
+<meta content="Code Video Model — Conditioning Video Generation on Code" property="og:title"/>
+<meta content="Code Video Model — Conditioning Video Generation on Code." property="og:description"/>
+<meta content="website" property="og:type"/>
+<script src="static/js/project-page-entry.js?v=experiment-pairs-2"></script>
+
+
+
+
+<link href="static/css/style.css?v=gallery-button-row-5" rel="stylesheet"/>
+<link href="static/css/section-atmospheres.css?v=anime-10" rel="stylesheet"/>
+<link href="static/css/comparison-previews.css?v=1" rel="stylesheet"/>
+<link href="static/css/custom-layout.css?v=2" rel="stylesheet"/>
+<link href="static/css/first-person-bubbles.css?v=group23-pairs-27" rel="stylesheet"/>
+<link href="static/css/integrated-gallery.css?v=1" rel="stylesheet"/>
+<link href="static/css/seamless-gallery.css?v=2" rel="stylesheet"/>
+<link href="static/css/preview-edit-diff.css?v=1" rel="stylesheet"/>
+<link href="static/css/gallery-navigation.css?v=1" rel="stylesheet"/>
+<link href="static/css/local-fonts.css" rel="stylesheet"/></head>
 <body>
-  <main>
-    <section class="hero">
-      <div class="container">
-        <p class="review-label">Anonymous supplementary material</p>
-        <h1>Code Video Model</h1>
-        <p class="tagline">
-          Editable programs provide spatiotemporal structure, while reference
-          images specify appearance for controllable video generation.
-        </p>
+<main>
+<div class="opening-atmosphere">
+<section class="publication-hero">
+<div class="container">
+<h1>
+<span class="title-brand-row">
+<span>Code Video Model</span>
+</span>
+</h1>
 
-        <h2>From Code to Video</h2>
-        <div class="demo-player" data-demo-player>
-          <video
-            playsinline
-            controls
-            preload="none"
-            poster="posters/project-demo.webp"
-            data-src="media/project-demo.mp4"
-            aria-label="Project overview video"
-          ></video>
-          <button class="load-video" type="button">Watch overview</button>
-          <p class="status" role="status" aria-live="polite"></p>
-        </div>
-      </div>
-    </section>
 
-    <section class="results" aria-labelledby="results-heading">
-      <div class="section-heading">
-        <p class="eyebrow">Qualitative results</p>
-        <h2 id="results-heading">Application Gallery</h2>
-        <p>
-          Each comparison synchronizes the executable proxy rendering and the
-          generated result. Videos load only after interaction.
-        </p>
-      </div>
-
-      <div class="case-list">
-        <article class="case-card" data-pair>
-          <div class="case-copy">
-            <p class="case-index">01</p>
-            <h3>Gaming</h3>
-            <p>Programmatic first-person camera control and scene motion.</p>
-          </div>
-          <div class="comparison">
-            <div class="video-grid">
-              <figure>
-                <figcaption>Executable proxy</figcaption>
-                <video playsinline muted preload="none" poster="posters/gaming-proxy.webp" data-src="media/gaming-proxy.mp4"></video>
-              </figure>
-              <figure>
-                <figcaption>Generated video</figcaption>
-                <video playsinline muted preload="none" poster="posters/gaming-output.webp" data-src="media/gaming-output.mp4"></video>
-              </figure>
-            </div>
-            <div class="transport">
-              <button class="pair-play" type="button">Play</button>
-              <input class="pair-seek" type="range" min="0" max="1000" value="0" disabled aria-label="Gaming playback progress">
-              <button class="pair-sound" type="button" aria-pressed="false">Sound off</button>
-            </div>
-            <p class="status" role="status" aria-live="polite"></p>
-          </div>
-        </article>
-
-        <article class="case-card" data-pair>
-          <div class="case-copy">
-            <p class="case-index">02</p>
-            <h3>Anime</h3>
-            <p>Stylized appearance transfer while retaining programmed motion.</p>
-          </div>
-          <div class="comparison">
-            <div class="video-grid">
-              <figure>
-                <figcaption>Executable proxy</figcaption>
-                <video playsinline muted preload="none" poster="posters/anime-proxy.webp" data-src="media/anime-proxy.mp4"></video>
-              </figure>
-              <figure>
-                <figcaption>Generated video</figcaption>
-                <video playsinline muted preload="none" poster="posters/anime-output.webp" data-src="media/anime-output.mp4"></video>
-              </figure>
-            </div>
-            <div class="transport">
-              <button class="pair-play" type="button">Play</button>
-              <input class="pair-seek" type="range" min="0" max="1000" value="0" disabled aria-label="Anime playback progress">
-              <button class="pair-sound" type="button" aria-pressed="false">Sound off</button>
-            </div>
-            <p class="status" role="status" aria-live="polite"></p>
-          </div>
-        </article>
-
-        <article class="case-card" data-pair>
-          <div class="case-copy">
-            <p class="case-index">03</p>
-            <h3>Bullet Time</h3>
-            <p>Independent control of event timing and camera trajectory.</p>
-          </div>
-          <div class="comparison">
-            <div class="video-grid">
-              <figure>
-                <figcaption>Executable proxy</figcaption>
-                <video playsinline muted preload="none" poster="posters/bullet-time-proxy.webp" data-src="media/bullet-time-proxy.mp4"></video>
-              </figure>
-              <figure>
-                <figcaption>Generated video</figcaption>
-                <video playsinline muted preload="none" poster="posters/bullet-time-output.webp" data-src="media/bullet-time-output.mp4"></video>
-              </figure>
-            </div>
-            <div class="transport">
-              <button class="pair-play" type="button">Play</button>
-              <input class="pair-seek" type="range" min="0" max="1000" value="0" disabled aria-label="Bullet Time playback progress">
-              <button class="pair-sound" type="button" aria-pressed="false">Sound off</button>
-            </div>
-            <p class="status" role="status" aria-live="polite"></p>
-          </div>
-        </article>
-
-        <article class="case-card" data-pair>
-          <div class="case-copy">
-            <p class="case-index">04</p>
-            <h3>Scene Editing</h3>
-            <p>Explicit object placement and layout changes in a shared scene.</p>
-          </div>
-          <div class="comparison">
-            <div class="video-grid">
-              <figure>
-                <figcaption>Executable proxy</figcaption>
-                <video playsinline muted preload="none" poster="posters/scene-editing-proxy.webp" data-src="media/scene-editing-proxy.mp4"></video>
-              </figure>
-              <figure>
-                <figcaption>Generated video</figcaption>
-                <video playsinline muted preload="none" poster="posters/scene-editing-output.webp" data-src="media/scene-editing-output.mp4"></video>
-              </figure>
-            </div>
-            <div class="transport">
-              <button class="pair-play" type="button">Play</button>
-              <input class="pair-seek" type="range" min="0" max="1000" value="0" disabled aria-label="Scene Editing playback progress">
-              <button class="pair-sound" type="button" aria-pressed="false">Sound off</button>
-            </div>
-            <p class="status" role="status" aria-live="polite"></p>
-          </div>
-        </article>
-
-        <article class="case-card" data-pair>
-          <div class="case-copy">
-            <p class="case-index">05</p>
-            <h3>Robotics Simulation</h3>
-            <p>Controllable embodiment, trajectories, and camera behavior.</p>
-          </div>
-          <div class="comparison">
-            <div class="video-grid">
-              <figure>
-                <figcaption>Executable proxy</figcaption>
-                <video playsinline muted preload="none" poster="posters/robotics-proxy.webp" data-src="media/robotics-proxy.mp4"></video>
-              </figure>
-              <figure>
-                <figcaption>Generated video</figcaption>
-                <video playsinline muted preload="none" poster="posters/robotics-output.webp" data-src="media/robotics-output.mp4"></video>
-              </figure>
-            </div>
-            <div class="transport">
-              <button class="pair-play" type="button">Play</button>
-              <input class="pair-seek" type="range" min="0" max="1000" value="0" disabled aria-label="Robotics Simulation playback progress">
-              <button class="pair-sound" type="button" aria-pressed="false">Sound off</button>
-            </div>
-            <p class="status" role="status" aria-live="polite"></p>
-          </div>
-        </article>
-
-        <article class="case-card" data-pair>
-          <div class="case-copy">
-            <p class="case-index">06</p>
-            <h3>Architectural Cinematics</h3>
-            <p>Long camera paths through a programmatically defined environment.</p>
-          </div>
-          <div class="comparison">
-            <div class="video-grid">
-              <figure>
-                <figcaption>Executable proxy</figcaption>
-                <video playsinline muted preload="none" poster="posters/architecture-proxy.webp" data-src="media/architecture-proxy.mp4"></video>
-              </figure>
-              <figure>
-                <figcaption>Generated video</figcaption>
-                <video playsinline muted preload="none" poster="posters/architecture-output.webp" data-src="media/architecture-output.mp4"></video>
-              </figure>
-            </div>
-            <div class="transport">
-              <button class="pair-play" type="button">Play</button>
-              <input class="pair-seek" type="range" min="0" max="1000" value="0" disabled aria-label="Architectural Cinematics playback progress">
-              <button class="pair-sound" type="button" aria-pressed="false">Sound off</button>
-            </div>
-            <p class="status" role="status" aria-live="polite"></p>
-          </div>
-        </article>
-
-        <article class="case-card" data-pair>
-          <div class="case-copy">
-            <p class="case-index">07</p>
-            <h3>Product Cinematography</h3>
-            <p>Precise object framing, camera orbit, materials, and lighting.</p>
-          </div>
-          <div class="comparison">
-            <div class="video-grid">
-              <figure>
-                <figcaption>Executable proxy</figcaption>
-                <video playsinline muted preload="none" poster="posters/product-proxy.webp" data-src="media/product-proxy.mp4"></video>
-              </figure>
-              <figure>
-                <figcaption>Generated video</figcaption>
-                <video playsinline muted preload="none" poster="posters/product-output.webp" data-src="media/product-output.mp4"></video>
-              </figure>
-            </div>
-            <div class="transport">
-              <button class="pair-play" type="button">Play</button>
-              <input class="pair-seek" type="range" min="0" max="1000" value="0" disabled aria-label="Product Cinematography playback progress">
-              <button class="pair-sound" type="button" aria-pressed="false">Sound off</button>
-            </div>
-            <p class="status" role="status" aria-live="polite"></p>
-          </div>
-        </article>
-
-        <article class="case-card" data-pair>
-          <div class="case-copy">
-            <p class="case-index">08</p>
-            <h3>Physical Grounding</h3>
-            <p>Programmed dynamics provide explicit motion and interaction structure.</p>
-          </div>
-          <div class="comparison">
-            <div class="video-grid">
-              <figure>
-                <figcaption>Executable proxy</figcaption>
-                <video playsinline muted preload="none" poster="posters/physics-proxy.webp" data-src="media/physics-proxy.mp4"></video>
-              </figure>
-              <figure>
-                <figcaption>Generated video</figcaption>
-                <video playsinline muted preload="none" poster="posters/physics-output.webp" data-src="media/physics-output.mp4"></video>
-              </figure>
-            </div>
-            <div class="transport">
-              <button class="pair-play" type="button">Play</button>
-              <input class="pair-seek" type="range" min="0" max="1000" value="0" disabled aria-label="Physical Grounding playback progress">
-              <button class="pair-sound" type="button" aria-pressed="false">Sound off</button>
-            </div>
-            <p class="status" role="status" aria-live="polite"></p>
-          </div>
-        </article>
-
-        <article class="case-card" data-pair>
-          <div class="case-copy">
-            <p class="case-index">09</p>
-            <h3>3D / 4D Reconstruction</h3>
-            <p>Rendered camera paths condition temporally consistent scene videos.</p>
-          </div>
-          <div class="comparison">
-            <div class="video-grid">
-              <figure>
-                <figcaption>Executable proxy</figcaption>
-                <video playsinline muted preload="none" poster="posters/reconstruction-proxy.webp" data-src="media/reconstruction-proxy.mp4"></video>
-              </figure>
-              <figure>
-                <figcaption>Generated video</figcaption>
-                <video playsinline muted preload="none" poster="posters/reconstruction-output.webp" data-src="media/reconstruction-output.mp4"></video>
-              </figure>
-            </div>
-            <div class="transport">
-              <button class="pair-play" type="button">Play</button>
-              <input class="pair-seek" type="range" min="0" max="1000" value="0" disabled aria-label="3D and 4D Reconstruction playback progress">
-              <button class="pair-sound" type="button" aria-pressed="false">Sound off</button>
-            </div>
-            <p class="status" role="status" aria-live="polite"></p>
-          </div>
-        </article>
-      </div>
-    </section>
-  </main>
-
-  <footer>
-    Anonymous supplementary material for peer review.
-  </footer>
-
-  <script src="static/page.js"></script>
+<h2 class="demo-heading" id="demo-heading">From Code to Video</h2>
+<div class="intro-video">
+<video aria-label="Project demo video" class="intro-standalone-video" data-src="static/demo/CodeVideoPromoV9Refined28_1080p_web_x264.mp4" playsinline="" poster="static/images/first-frames-native/d3dee3434c2c935a3eebed20032188584e294791aa84139784fa4d7e231fdc9c-frame000030.webp" preload="none">
+              Your browser does not support embedded video.
+            </video>
+<button class="demo-load" type="button">Watch</button>
+<p aria-live="polite" class="demo-status" role="status"></p>
+</div>
+</div>
+</section>
+</div>
+<header class="gallery-intro" id="results"><h2>Gallery</h2></header>
+<section aria-label="Applications" class="application-previews">
+<!-- application-previews:start -->
+<section class="category-shell" id="control-world-states"><div class="category-content"><div class="category-overview">
+<article class="application-preview" data-case="first-person-030" data-display-name="Gaming_04" data-section="control-world-states">
+<div class="comparison-frame">
+<div class="application-video-pair">
+<figure><figcaption>Three.js</figcaption><video aria-label="Gaming Three.js" data-poster="static/images/first-frames-native/1c03ca919eefbf4392d6c4fe8d9b940c398b6facade3c3b0b0d0eaa853939120.webp" data-src="static/project-page-cases/threejs/first-person-games/first-person-030.mp4" muted="" playsinline="" preload="none"></video></figure>
+<figure><figcaption>Code Video Model</figcaption><video aria-label="Gaming Code Video Model" data-poster="static/images/first-frames-native/0c5f036db8d244d75ea1c974f493c7ce31fab388d00424668ef3e90794944956.webp" data-src="static/project-page-cases/code-video-model/first-person-games/first-person-030.mp4" muted="" playsinline="" preload="none"></video></figure>
+</div>
+<div class="application-transport">
+<button aria-label="Play video pair" class="application-play" type="button">Play</button>
+<input aria-label="Video pair progress" class="application-seek" disabled="" max="1000" min="0" step="1" type="range" value="0"/>
+<button aria-pressed="false" class="application-sound" type="button">Sound off</button>
+</div>
+<p aria-live="polite" class="application-status" role="status"></p>
+</div>
+<div class="application-copy">
+<h2><a href="gallery.html#control-world-states">Gaming</a></h2>
+</div>
+</article>
+</div></div></section>
+<!-- anime:start -->
+<section class="category-shell" id="anime"><div class="category-content"><div class="category-overview"><article class="application-preview" data-case="anime-hotel" data-display-name="Anime_01" data-section="anime"><div class="comparison-frame"><div class="application-video-pair"><figure><figcaption>Three.js</figcaption><video aria-label="Anime Three.js" data-poster="static/images/first-frames-native/b0afbeca4b711b53560bc126c5797c86f865d5c0c0989e751b221651db298521-frame000024.webp" data-src="static/project-page-cases/anime/anime-hotel/threejs-b0afbeca4b711b53.mp4" muted="" playsinline="" preload="none"></video></figure><figure><figcaption>Code Video Model</figcaption><video aria-label="Anime Code Video Model" data-poster="static/images/first-frames-native/a21781b4e0aed258df3fe15a7db5c054745ce8b6e7920bb4c19351e48593e3bc-frame000024.webp" data-src="static/project-page-cases/anime/anime-hotel/output-a21781b4e0aed258.mp4" muted="" playsinline="" preload="none"></video></figure></div><div class="application-transport"><button class="application-play" type="button">Play</button><input aria-label="Video pair progress" class="application-seek" disabled="" max="1000" min="0" step="1" type="range" value="0"/><button aria-pressed="false" class="application-sound" type="button">Sound off</button></div><p aria-live="polite" class="application-status" role="status"></p></div><div class="application-copy"><h2><a href="gallery.html#anime">Anime</a></h2></div></article></div></div></section>
+<!-- anime:end -->
+<section class="category-shell" id="long-horizon-style"><div class="category-content"><div class="category-overview">
+<article class="application-preview" data-case="508" data-display-name="Bullet_Time_02" data-section="long-horizon-style">
+<div class="comparison-frame">
+<div class="application-video-pair">
+<figure><figcaption>Three.js</figcaption><video aria-label="Bullet Time Three.js" data-poster="static/images/first-frames-native/2e39cbc22a4325da26c3ce79bfa6939aafb839776d288c49802c7a5064ca76e3.webp" data-src="static/project-page-cases/experiment-inputs/2e39cbc22a4325da26c3ce79bfa6939aafb839776d288c49802c7a5064ca76e3/threejs.mp4" muted="" playsinline="" preload="none"></video></figure>
+<figure><figcaption>Code Video Model</figcaption><video aria-label="Bullet Time Code Video Model" data-poster="static/images/first-frames-native/d0a8579dcd22aab246f9c9108e4a4f75e70a1c75ce290600dedc42e1d10d2bf8.webp" data-src="static/project-page-cases/selected-0907-seedvr2-2x/bullet-time/case-508-d0a8579dcd22.mp4" muted="" playsinline="" preload="none"></video></figure>
+</div>
+<div class="application-transport">
+<button aria-label="Play video pair" class="application-play" type="button">Play</button>
+<input aria-label="Video pair progress" class="application-seek" disabled="" max="1000" min="0" step="1" type="range" value="0"/>
+<button aria-pressed="false" class="application-sound" type="button">Sound off</button>
+</div>
+<p aria-live="polite" class="application-status" role="status"></p>
+</div>
+<div class="application-copy">
+<h2><a href="gallery.html#long-horizon-style">Bullet Time</a></h2>
+</div>
+</article>
+</div></div></section>
+<section class="category-shell" id="gallery"><div class="category-content"><div class="category-overview">
+<article class="application-preview" data-case="583" data-case-b="663" data-display-name="Scene_World_Editing_01" data-section="gallery" data-variant="a">
+<div class="comparison-frame">
+<div aria-label="Scene edit" class="application-edit-controls" role="group"><button aria-pressed="false" class="application-variant-toggle" data-edit-label="Move Chair to Desk" type="button">Move Chair to Desk</button></div>
+<div class="application-video-pair">
+<figure><figcaption>Three.js</figcaption><video aria-label="Scene / World Editing Three.js" data-poster="static/images/first-frames-native/6d4990f6cba4131a62288fa72657478665377779fa92b3684e060f3f0224f2d3.webp" data-poster-a="static/images/first-frames-native/6d4990f6cba4131a62288fa72657478665377779fa92b3684e060f3f0224f2d3.webp" data-poster-b="static/images/first-frames-native/623298afee7cc13e32a2d5cc0a9ef7613b329223835bec05ba3859a788e09733.webp" data-src="static/project-page-cases/experiment-inputs/6d4990f6cba4131a62288fa72657478665377779fa92b3684e060f3f0224f2d3/threejs.mp4" data-src-a="static/project-page-cases/experiment-inputs/6d4990f6cba4131a62288fa72657478665377779fa92b3684e060f3f0224f2d3/threejs.mp4" data-src-b="static/project-page-cases/experiment-inputs/623298afee7cc13e32a2d5cc0a9ef7613b329223835bec05ba3859a788e09733/threejs.mp4" muted="" playsinline="" preload="none"></video></figure>
+<figure><figcaption>Code Video Model</figcaption><video aria-label="Scene / World Editing Code Video Model" data-poster="static/images/first-frames-native/db0376ec4673e633f6e776b954b5de5525b7ad37c78c94b3fab186bb4b7e5376.webp" data-poster-a="static/images/first-frames-native/db0376ec4673e633f6e776b954b5de5525b7ad37c78c94b3fab186bb4b7e5376.webp" data-poster-b="static/images/first-frames-native/61895e9bf688951035a89df3712fdec5f39279691027e31c67d7cc0c38bab6e3.webp" data-src="static/project-page-cases/experiment-group23-image-group23-4-v12/scene-world-editing/case-583-db0376ec4673.mp4" data-src-a="static/project-page-cases/experiment-group23-image-group23-4-v12/scene-world-editing/case-583-db0376ec4673.mp4" data-src-b="static/project-page-cases/experiment-group23-image-group23-4-v12/scene-world-editing/case-663-61895e9bf688.mp4" muted="" playsinline="" preload="none"></video></figure>
+</div>
+<div class="application-transport">
+<button aria-label="Play video pair" class="application-play" type="button">Play</button>
+<input aria-label="Video pair progress" class="application-seek" disabled="" max="1000" min="0" step="1" type="range" value="0"/>
+<button aria-pressed="false" class="application-sound" type="button">Sound off</button>
+</div>
+<p aria-live="polite" class="application-status" role="status"></p>
+</div>
+<div class="application-copy">
+<h2><a href="gallery.html#gallery">Scene / World Editing</a></h2>
+</div>
+</article>
+</div></div></section>
+<section class="category-shell" id="robotics-simulation"><div class="category-content"><div class="category-overview">
+<article class="application-preview" data-case="564" data-case-b="563" data-display-name="Robotics_Trajectory_Control_03" data-section="robotics-simulation" data-selection="robotics-group23-564-563-image-group23-2-v13" data-variant="a">
+<div class="comparison-frame">
+<div aria-label="Scene edit" class="application-edit-controls" role="group"><button aria-pressed="false" class="application-variant-toggle" data-edit-label="Use Quadruped Robot" type="button">Use Quadruped Robot</button></div>
+<div class="application-video-pair">
+<figure><figcaption>Three.js</figcaption><video aria-label="Robotics &amp; Trajectory Control Three.js" data-poster="static/images/first-frames-native/a1d128ed64f19e89a83f7c788ac3abc26b6b78f9951f4984d63d19854695d834.webp" data-poster-a="static/images/first-frames-native/a1d128ed64f19e89a83f7c788ac3abc26b6b78f9951f4984d63d19854695d834.webp" data-poster-b="static/images/first-frames-native/254888291a343e47b34f855af274a89850641ef2aeb01e65f742e73f9fbedf3a.webp" data-src="static/project-page-cases/experiment-inputs/a1d128ed64f19e89a83f7c788ac3abc26b6b78f9951f4984d63d19854695d834/threejs.mp4" data-src-a="static/project-page-cases/experiment-inputs/a1d128ed64f19e89a83f7c788ac3abc26b6b78f9951f4984d63d19854695d834/threejs.mp4" data-src-b="static/project-page-cases/experiment-inputs/254888291a343e47b34f855af274a89850641ef2aeb01e65f742e73f9fbedf3a/threejs.mp4" muted="" playsinline="" preload="none"></video></figure>
+<figure><figcaption>Code Video Model</figcaption><video aria-label="Robotics &amp; Trajectory Control Code Video Model" data-poster="static/images/first-frames-native/2bdfbe4b1b132f43b80f6e8e31334b610d562e6c7f8f8883af5a4e4de156223b.webp" data-poster-a="static/images/first-frames-native/2bdfbe4b1b132f43b80f6e8e31334b610d562e6c7f8f8883af5a4e4de156223b.webp" data-poster-b="static/images/first-frames-native/b8a23ca6efc40aba5df94e9a9601af1897044f2edb1a1d8edd76383d053d8d76.webp" data-src="static/project-page-cases/experiment-pairs/robotics-group23-564-563-image-group23-2-v13/case-564-2bdfbe4b1b13.mp4" data-src-a="static/project-page-cases/experiment-pairs/robotics-group23-564-563-image-group23-2-v13/case-564-2bdfbe4b1b13.mp4" data-src-b="static/project-page-cases/experiment-pairs/robotics-group23-564-563-image-group23-2-v13/case-563-b8a23ca6efc4.mp4" muted="" playsinline="" preload="none"></video></figure>
+</div>
+<div class="application-transport">
+<button aria-label="Play video pair" class="application-play" type="button">Play</button>
+<input aria-label="Video pair progress" class="application-seek" disabled="" max="1000" min="0" step="1" type="range" value="0"/>
+<button aria-pressed="false" class="application-sound" type="button">Sound off</button>
+</div>
+<p aria-live="polite" class="application-status" role="status"></p>
+</div>
+<div class="application-copy">
+<h2><a href="gallery.html?case=564&amp;selection=robotics-group23-564-563-image-group23-2-v13#robotics-simulation">Robotics &amp; Trajectory Control</a></h2>
+</div>
+</article>
+</div></div></section>
+<section class="category-shell" id="architectural-cinematics"><div class="category-content"><div class="category-overview">
+<article class="application-preview" data-case="643" data-display-name="Architectural_Cinematics_01" data-section="architectural-cinematics">
+<div class="comparison-frame">
+<div class="application-video-pair">
+<figure><figcaption>Three.js</figcaption><video aria-label="Architectural Cinematics Three.js" data-poster="static/images/first-frames-native/2a282ae58fdab6a9cbae26cc486361404f9961582c1ab77a09f7d163085838c1.webp" data-src="static/project-page-cases/threejs/architectural-cinematics/case-643.mp4" muted="" playsinline="" preload="none"></video></figure>
+<figure><figcaption>Code Video Model</figcaption><video aria-label="Architectural Cinematics Code Video Model" data-poster="static/images/first-frames-native/5bc5de70220a0c8030441da669c9ac85989847365171a5541e77b21fc2064b32.webp" data-src="static/project-page-cases/selected-0907-seedvr2-2x/architectural-cinematics/case-643-5bc5de70220a.mp4" muted="" playsinline="" preload="none"></video></figure>
+</div>
+<div class="application-transport">
+<button aria-label="Play video pair" class="application-play" type="button">Play</button>
+<input aria-label="Video pair progress" class="application-seek" disabled="" max="1000" min="0" step="1" type="range" value="0"/>
+<button aria-pressed="false" class="application-sound" type="button">Sound off</button>
+</div>
+<p aria-live="polite" class="application-status" role="status"></p>
+</div>
+<div class="application-copy">
+<h2><a href="gallery.html#architectural-cinematics">Architectural Cinematics</a></h2>
+</div>
+</article>
+</div></div></section>
+<section class="category-shell" id="product-cinematography"><div class="category-content"><div class="category-overview">
+<article class="application-preview" data-case="624" data-display-name="Product_Cinematography_01" data-section="product-cinematography">
+<div class="comparison-frame">
+<div class="application-video-pair">
+<figure><figcaption>Three.js</figcaption><video aria-label="Product Cinematography Three.js" data-poster="static/images/first-frames-native/0a61f67c5cbaffe36ab3e673bd22f2728ba9968f3cc0fad8738f02e5b13af29b.webp" data-src="static/project-page-cases/experiment-inputs/0a61f67c5cbaffe36ab3e673bd22f2728ba9968f3cc0fad8738f02e5b13af29b/threejs.mp4" muted="" playsinline="" preload="none"></video></figure>
+<figure><figcaption>Code Video Model</figcaption><video aria-label="Product Cinematography Code Video Model" data-poster="static/images/first-frames-native/730d98dd23014052636859be60494399b33634f9173f55405fe9435ed07acad5.webp" data-src="static/project-page-cases/experiment-threejs-v2-image-group19-4-v17/product-cinematography/case-624-730d98dd2301.mp4" muted="" playsinline="" preload="none"></video></figure>
+</div>
+<div class="application-transport">
+<button aria-label="Play video pair" class="application-play" type="button">Play</button>
+<input aria-label="Video pair progress" class="application-seek" disabled="" max="1000" min="0" step="1" type="range" value="0"/>
+<button aria-pressed="false" class="application-sound" type="button">Sound off</button>
+</div>
+<p aria-live="polite" class="application-status" role="status"></p>
+</div>
+<div class="application-copy">
+<h2><a href="gallery.html#product-cinematography">Product Cinematography</a></h2>
+</div>
+</article>
+</div></div></section>
+<!-- physical-grounding:start -->
+<section class="category-shell" id="physical-grounding"><div class="category-content"><div class="category-overview"><article class="application-preview" data-case="physical-isochronous" data-display-name="Physical_Grounding_01" data-section="physical-grounding"><div class="comparison-frame"><div class="application-video-pair"><figure><figcaption>Three.js</figcaption><video aria-label="Physical Grounding Three.js" data-poster="static/images/first-frames-native/802dcff5b06015d934fe59ea1c7275141a3d370b2e7925b22c96850fc4612840-frame000024.webp" data-src="static/project-page-cases/threejs/physical-grounding/physical-isochronous.mp4" muted="" playsinline="" preload="none"></video></figure><figure><figcaption>Output</figcaption><video aria-label="Physical Grounding Output" data-poster="static/images/first-frames-native/21eb15899b0e6050292bd0ac32cd09405c13e77dd018033df486922d94a073a8-frame000024.webp" data-src="static/project-page-cases/code-video-model/physical-grounding/physical-isochronous.mp4" muted="" playsinline="" preload="none"></video></figure></div><div class="application-transport"><button class="application-play" type="button">Play</button><input aria-label="Video pair progress" class="application-seek" disabled="" max="1000" min="0" step="1" type="range" value="0"/><button aria-pressed="false" class="application-sound" type="button">Sound off</button></div><p aria-live="polite" class="application-status" role="status"></p></div><div class="application-copy"><h2><a href="gallery.html#physical-grounding">Physical Grounding</a></h2></div></article></div></div></section>
+<!-- physical-grounding:end -->
+<section class="category-shell" id="reconstruction-3d-4d"><div class="category-content"><div class="category-overview">
+<article class="application-preview" data-case="astra-train" data-display-name="3D_4D_Reconstruction_08" data-section="reconstruction-3d-4d">
+<div class="comparison-frame">
+<div class="application-video-pair">
+<figure><figcaption>Three.js</figcaption><video aria-label="3D / 4D Reconstruction Three.js" data-poster="static/images/first-frames-native/c822e0aa0db4fdce71290667b6bddefa9f33df3876ed2edcae80795dc988fccd.webp" data-src="static/project-page-cases/threejs/reconstruction-3d-4d/astra-train-c822e0aa0db4.mp4" muted="" playsinline="" preload="none"></video></figure>
+<figure><figcaption>Code Video Model</figcaption><video aria-label="3D / 4D Reconstruction Code Video Model" data-poster="static/images/first-frames-native/785f39faf08a35165d22d6273140db8c7bc90ef7d68d7ecdd98cfbc2a1377a2e.webp" data-src="static/project-page-cases/code-video-model/reconstruction-3d-4d/astra-train-785f39faf08a.mp4" muted="" playsinline="" preload="none"></video></figure>
+</div>
+<div class="application-transport">
+<button aria-label="Play video pair" class="application-play" type="button">Play</button>
+<input aria-label="Video pair progress" class="application-seek" disabled="" max="1000" min="0" step="1" type="range" value="0"/>
+<button aria-pressed="false" class="application-sound" type="button">Sound off</button>
+</div>
+<p aria-live="polite" class="application-status" role="status"></p>
+</div>
+<div class="application-copy">
+<h2><a href="gallery.html#reconstruction-3d-4d">3D / 4D Reconstruction</a></h2>
+</div>
+</article>
+</div></div></section>
+<!-- application-previews:end -->
+</section>
+</main>
+<script src="static/js/section-atmospheres.js?v=section-order-4" type="module"></script>
+<script src="static/js/demo-video.js?v=2" type="module"></script>
+<script src="static/js/application-previews.js?v=3" type="module"></script>
+<script src="static/js/home-gallery.js?v=2" type="module"></script>
 </body>
 </html>

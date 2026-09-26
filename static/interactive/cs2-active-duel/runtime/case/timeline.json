@@ -1,0 +1,36 @@
+{
+  "schema": "original-tactical-proxy-timeline-v1",
+  "caseId": "cs2-dust2-fps-duel",
+  "width": 1280,
+  "height": 720,
+  "fps": 60,
+  "frames": 300,
+  "duration": 5,
+  "peekStart": 0.08,
+  "movementStop": 0.9,
+  "shots": [
+    1.3,
+    1.5,
+    1.7,
+    1.9
+  ],
+  "flashDuration": 0.034,
+  "fallStart": 1.78,
+  "fallEnd": 2.45,
+  "feedStart": 3.0,
+  "retreatStart": 3.05,
+  "retreatEnd": 4.65,
+  "footsteps": [
+    0.18,
+    0.57,
+    3.22,
+    3.68,
+    4.15,
+    4.53
+  ],
+  "casingImpactDelay": 0.54,
+  "ammoStart": 30,
+  "ammoReserve": 90,
+  "health": 100,
+  "sourcePolicy": "Original procedural world, characters, weapon, HUD, textures and audio. No game assets, commercial imagery or external requests."
+}
